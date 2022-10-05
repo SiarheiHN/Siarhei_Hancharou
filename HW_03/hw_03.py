@@ -1,5 +1,0 @@
-human_height = int(input("Введите ваш рост в см. : "))
-human_weight = int(input("Введите ваш вес в кг. : "))
-human_bmi = round((human_weight / ((human_height/100)**2)), 2)
-print(f'Ваш индекс массы тела : {human_bmi}')
-print('16' + '='*(int(round(human_bmi, 0))-16) + '|' + '='*(40-int(round(human_bmi, 0))) + '40')
